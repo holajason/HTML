@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<title> Adding Audio to webpage</title>
+
+    <h1> Welcome To the Homepage</h1>
+    <p>
+        This lession we learn how to add audio to the webpage
+    </p>
+       <h2> Adding Music</h2>
+    <audio controls>
+        <source src ="audio/Friendships%20(Original%20Mix).mp3" type ="audio/mpeg">
+        <source src ="audio/Friendships%20(Original%20Mix).ogg" type ="audio/ogg">  <!-- incase borwser does not suppoer mp3-->
+        <a href="audio/Friendships%20(Original%20Mix).mp3"> Friendship audio records </a>   <!--incase broswer does not support any above-->
+    </audio>
+    
+    <h2> Adding Video</h2>
+    <p> I have include an example video file on the page</p>
+       
+    <video controls>
+            <source src = "video/example.mp4"  type = "video/mp4">
+        <source src = "video/example.webm" type = "video/webm">
+        <source src = "video/example.ogv" type = "video/ogv">
+        Your web brower is outdataed and does not support HTML video. Please consider <a ref = "http: //browsehappy.com/" > Updating</a>.
+       </video>
+</html>
