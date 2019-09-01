@@ -1,0 +1,30 @@
+h1{
+    color : orange;
+    text-align: center;
+    font-size: 165%%;
+    font-weight: normal;
+}
+
+header p{
+    color: green;
+}
+
+header p span {     /*Decedent selector*/
+    color: purple;
+}
+
+.highlight {
+    background: yellow;
+}
+
+body{
+    color: green;
+}
+
+body footer p{
+    color: red;
+}
+body footer .highlight{
+  color: black;
+  background: gray;
+}
