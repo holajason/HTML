@@ -44,6 +44,7 @@ body header p{
 }
 
 .sidebar{
+    position: relative;
     width: 34%;
     float: left;
     background-color: springgreen;
@@ -74,9 +75,36 @@ body footer{
     padding-top: 20px;
 }
 
+/* Resizing Image*/
+img{
+    max-width: 100%;
+    height: auto;
+    
+}
+
 .group{
     zoom :1;
 }
+
+/*Banner overlay*/
+.image-banner{
+    position: relative;
+    top : 10px;
+    left: 10px;
+}
+.image-banner img{
+    display: block;
+    
+}
+.banner-descritiption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #FFF;
+    background-color: rgba(0,0,0,.65);
+    padding: 15px 25px;
+}
+
 
 /*Site Nagigation*/
 .site-nav a{
