@@ -19,7 +19,6 @@ body{
 
 body header{
     padding-top: 40px;
-    padding-bottom: 20px;
     color: #617140;
 }
 
@@ -30,7 +29,6 @@ body header h1{
 }
 body header p{
     margin: 0;
-    
 }
 
 .content-area{
@@ -80,3 +78,27 @@ body footer{
     zoom :1;
 }
 
+/*Site Nagigation*/
+.site-nav a{
+    display: block;
+    color: #617140;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid green;
+    border-bottom: none;
+}
+.site-nav li{
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+
+.site-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav a:hover{
+    background-color: darkgoldenrod;
+}
+/*End site Navigation*/
