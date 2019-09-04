@@ -1,0 +1,161 @@
+
+html{
+    font-family: Georgia, Arial, sans-serif;
+    line-height: 1.5;
+    
+}
+
+header {
+	padding-top: 20px; 
+	color: #FFF;
+    background-color: gray;
+	background-image: url(images/images.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+    background-origin: padding-box;
+
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+
+.section{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+/*site navigation*/
+.container{
+    max-width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  
+}
+
+.site-nav{
+    margin-top: 20px;
+
+}
+
+.stie-nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.site-nav li{
+    list-style: none;
+    padding-bottom: none;
+    float: center;
+    margin: 5px;
+    align-content: center;
+}
+
+/*site navigation styles*/
+.site-nav a{
+    display: block;
+    color: black;
+    padding: 10px 15px;
+    background-color: rgba(3,189,252);
+    text-align: center;
+}
+
+.content-area{
+
+}
+
+.main-area{
+    width: 60%;
+	float: left;
+}
+
+.sidebar {
+    padding-left: 8px;
+	width: 30%;
+	float: right;
+
+}
+
+.sidebar .temp{
+    font-size: 30px;
+    margin-top: 90px;
+    
+}
+
+.steak-temp img{
+   max-width: 100%;
+  height: auto;
+}
+
+table{
+    border-spacing: 0;  /* removing spacing between cell*/
+    border-collapse: collapse;  /*Collapse lines*/
+    width: 100%;
+}
+
+table th{
+    text-align: left;
+    background-color: olive;
+    color: #FFF;
+    text-shadow: 1px 1px 0 rgda(0,0,0,.4);
+}
+
+table th,
+table td{
+    border: 1px solid olive;
+    padding: 5px;
+    vertical-align: top;
+}
+
+table tbody tr:nth-child(even) td{  /*ever other row element*/
+    background-color: lightblue;
+    
+}
+
+/*select the 2nd and 3rd item*/
+table.list tr :nth-child(2),  
+table.list tr :nth-child(3),
+table.list tr :nth-child(4),{
+    text-align: center;
+    
+}
+
+.steak-doneses{
+ width: 25%;   
+}
+
+.int-temp{
+    width: 25%;
+}
+
+.grill-time{
+    width: 25%;
+}
+
+.center-color{
+    width: 25%;
+}
+
+/*clear floated children*/
+.group:before,
+.group:after{
+    content: "";
+    display: table;
+}
+
+.group:after{
+    clear: both;
+}
+
+
+.group{
+    zoom: 1;
+}
+/*clear floated children end*/
